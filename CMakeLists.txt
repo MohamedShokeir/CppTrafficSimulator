@@ -7,6 +7,7 @@ set(CMAKE_OSX_ARCHITECTURES "arm64")
 find_package(OpenCV 4.1 REQUIRED)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
+include_directories(include)
 link_directories(${OpenCV_LIBRARY_DIRS})
 add_definitions(${OpenCV_DEFINITIONS})
 

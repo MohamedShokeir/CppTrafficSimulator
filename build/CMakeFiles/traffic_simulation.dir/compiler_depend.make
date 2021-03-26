@@ -269,11 +269,11 @@ CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o: ../src/Graphics.cpp \
   /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4/opencv2/highgui.hpp \
   /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4/opencv2/imgcodecs.hpp \
   /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4/opencv2/videoio.hpp \
-  ../src/Graphics.h \
-  ../src/TrafficObject.h \
+  ../include/Graphics.h \
+  ../include/TrafficObject.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/thread \
-  ../src/Intersection.h \
-  ../src/TrafficLight.h \
+  ../include/Intersection.h \
+  ../include/TrafficLight.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/condition_variable \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/future
@@ -512,13 +512,13 @@ CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o: ../src/Intersection.cp
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
-  ../src/Intersection.h \
-  ../src/TrafficLight.h \
-  ../src/TrafficObject.h \
+  ../include/Intersection.h \
+  ../include/TrafficLight.h \
+  ../include/TrafficObject.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/condition_variable \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque \
-  ../src/Street.h \
-  ../src/Vehicle.h
+  ../include/Street.h \
+  ../include/Vehicle.h
 
 CMakeFiles/traffic_simulation.dir/src/Street.cpp.o: ../src/Street.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
@@ -745,21 +745,21 @@ CMakeFiles/traffic_simulation.dir/src/Street.cpp.o: ../src/Street.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
-  ../src/Vehicle.h \
-  ../src/TrafficObject.h \
+  ../include/Vehicle.h \
+  ../include/TrafficObject.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/thread \
-  ../src/Intersection.h \
-  ../src/TrafficLight.h \
+  ../include/Intersection.h \
+  ../include/TrafficLight.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/condition_variable \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/future \
-  ../src/Street.h
+  ../include/Street.h
 
 CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.o: ../src/TrafficLight.cpp \
-  ../src/TrafficLight.h \
-  ../src/TrafficObject.h \
+  ../include/TrafficLight.h \
+  ../include/TrafficObject.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
@@ -1221,7 +1221,7 @@ CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o: ../src/TrafficObject.
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
-  ../src/TrafficObject.h \
+  ../include/TrafficObject.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/thread
@@ -1454,15 +1454,15 @@ CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.o: ../src/Traff
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/thread \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
-  ../src/Vehicle.h \
-  ../src/TrafficObject.h \
-  ../src/Street.h \
-  ../src/Intersection.h \
-  ../src/TrafficLight.h \
+  ../include/Vehicle.h \
+  ../include/TrafficObject.h \
+  ../include/Street.h \
+  ../include/Intersection.h \
+  ../include/TrafficLight.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/condition_variable \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/future \
-  ../src/Graphics.h \
+  ../include/Graphics.h \
   /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4/opencv2/core.hpp \
   /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4/opencv2/core/cvdef.h \
   /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4/opencv2/core/hal/interface.h \
@@ -1733,30 +1733,28 @@ CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o: ../src/Vehicle.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
-  ../src/Street.h \
-  ../src/TrafficObject.h \
+  ../include/Street.h \
+  ../include/TrafficObject.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/thread \
-  ../src/Intersection.h \
-  ../src/TrafficLight.h \
+  ../include/Intersection.h \
+  ../include/TrafficLight.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/condition_variable \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/future \
-  ../src/Vehicle.h
+  ../include/Vehicle.h
 
 
 ../src/Vehicle.cpp:
 
 ../src/TrafficLight.cpp:
 
-../src/Vehicle.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/random:
 
-../src/Intersection.h:
+../include/Intersection.h:
 
-../src/Graphics.h:
+../include/TrafficObject.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/condition_variable:
 
@@ -1798,6 +1796,8 @@ CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o: ../src/Vehicle.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath:
 
+../include/TrafficLight.h:
+
 /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4/opencv2/core/cvstd.hpp:
 
 /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4/opencv2/core/operations.hpp:
@@ -1815,6 +1815,8 @@ CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o: ../src/Vehicle.cpp \
 /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4/opencv2/core/persistence.hpp:
 
 /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4/opencv2/core.hpp:
+
+../include/Graphics.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
 
@@ -1837,6 +1839,8 @@ CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o: ../src/Vehicle.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ino64_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ino_t.h:
+
+../include/Vehicle.h:
 
 /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4/opencv2/core/hal/interface.h:
 
@@ -1972,6 +1976,8 @@ CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o: ../src/Vehicle.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime:
 
+../include/Street.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ucontext.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/atomic:
@@ -2040,8 +2046,6 @@ CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o: ../src/Vehicle.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint32_t.h:
 
-../src/Street.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/stdint.h:
 
 /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4/opencv2/core/utility.hpp:
@@ -2067,8 +2071,6 @@ CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o: ../src/Vehicle.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdlib.h:
-
-../src/TrafficObject.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
 
@@ -2221,8 +2223,6 @@ CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o: ../src/Vehicle.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__locale:
-
-../src/TrafficLight.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/time.h:
 

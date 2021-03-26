@@ -4,9 +4,9 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = -DCERES_FOUND
 
-CXX_INCLUDES = -isystem /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4
+CXX_INCLUDES = -I/Users/ms/CppUdacity/Projects/CppTrafficSimulator/include -isystem /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4
 
-CXX_FLAGSarm64 =  -std=c++17 -pthread -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++11
+CXX_FLAGSarm64 =  -std=c++17 -pthread -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++11
 
-CXX_FLAGS =  -std=c++17 -pthread -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++11
+CXX_FLAGS =  -std=c++17 -pthread -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++11
 

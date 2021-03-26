@@ -43,7 +43,8 @@ void TrafficLight::waitForGreen() {
   // message queue. Once it receives TrafficLightPhase::green, the method
   // returns.
   while (true) {
-    TrafficLightPhase msg = _queue->receive();
+    // TrafficLightPhase msg = _queue->receive();
+    TrafficLightPhase msg = _queue.receive();
     if (msg == TrafficLightPhase::green)
       return;
 
@@ -58,8 +59,10 @@ void TrafficLight::simulate() {
   // FP.2b : Finally, the private method „cycleThroughPhases“ should be
   // started in a thread when the public method „simulate“ is called. To do
   // this, use the thread queue in the base class.
-  std::thread t(&TrafficLight::cycleThroughPhases, this);
-  threads.emplace_back(std::move(t));
+
+  //   std::thread t(&TrafficLight::cycleThroughPhases, this);
+  //   threads.emplace_back(std::move(t));
+  threads.emplace_back(std::thread(&TrafficLight::cycleThroughPhases, this));
 }
 
 // virtual function which is executed in a thread
@@ -85,23 +88,33 @@ void TrafficLight::cycleThroughPhases() {
             std::chrono::system_clock::now() - lastUpdate)
             .count();
     if (timeSinceLastUpdate >= cycleDuration) {
-      switch (_currentPhase) {
-      case green:
-        _currentPhase = TrafficLightPhase::red;
-      case red:
-        _currentPhase = TrafficLightPhase::green;
-      }
+      //   switch (_currentPhase) {
+      //   case green:
+      //     _currentPhase = TrafficLightPhase::red;
+      //     break;
+      //   case red:
+      //     _currentPhase = TrafficLightPhase::green;
+      //     break;
+      //   }
+      _currentPhase = _currentPhase == TrafficLightPhase::red
+                          ? TrafficLightPhase::green
+                          : TrafficLightPhase::red;
+
       // sends an update method to the message queue using move semantics
-      TrafficLightPhase msg = _currentPhase;
-      std::future<void> ftr =
-          std::async(std::launch::async, &MessageQueue<TrafficLightPhase>::send,
-                     _queue, std::move(msg));
-      ftr.wait();
+
+      //   std::future<void> ftr =
+      //       std::async(std::launch::async,
+      //       &MessageQueue<TrafficLightPhase>::send,
+      //                  _queue, std::move(_currentPhase));
+      //   ftr.wait();
+      _queue.send(std::move(_currentPhase));
 
       // reset stop watch for next cycle
       lastUpdate = std::chrono::system_clock::now();
     }
     // sleep at every iteration to reduce CPU usage
     std::this_thread::sleep_for(std::chrono::milliseconds(1));
+    // re-generate a random number
+    cycleDuration = distr(mt);
   }
 }

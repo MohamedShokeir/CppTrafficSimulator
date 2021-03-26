@@ -1,7 +1,7 @@
 CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.o: \
   /Users/ms/CppUdacity/Projects/CppTrafficSimulator/src/TrafficLight.cpp \
-  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/src/TrafficLight.h \
-  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/src/TrafficObject.h \
+  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/include/TrafficLight.h \
+  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/include/TrafficObject.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \

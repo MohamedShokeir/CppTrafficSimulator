@@ -267,11 +267,11 @@ CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o: \
   /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4/opencv2/highgui.hpp \
   /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4/opencv2/imgcodecs.hpp \
   /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4/opencv2/videoio.hpp \
-  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/src/Graphics.h \
-  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/src/TrafficObject.h \
+  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/include/Graphics.h \
+  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/include/TrafficObject.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/thread \
-  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/src/Intersection.h \
-  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/src/TrafficLight.h \
+  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/include/Intersection.h \
+  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/include/TrafficLight.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/condition_variable \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/future

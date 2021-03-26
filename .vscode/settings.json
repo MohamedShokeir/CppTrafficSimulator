@@ -5,6 +5,8 @@
         "atomic": "cpp",
         "condition_variable": "cpp",
         "deque": "cpp",
-        "__mutex_base": "cpp"
+        "__mutex_base": "cpp",
+        "memory": "cpp",
+        "future": "cpp"
     }
 }

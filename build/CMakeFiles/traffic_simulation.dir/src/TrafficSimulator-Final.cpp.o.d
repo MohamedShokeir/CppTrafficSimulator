@@ -227,15 +227,15 @@ CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/thread \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/src/Vehicle.h \
-  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/src/TrafficObject.h \
-  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/src/Street.h \
-  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/src/Intersection.h \
-  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/src/TrafficLight.h \
+  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/include/Vehicle.h \
+  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/include/TrafficObject.h \
+  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/include/Street.h \
+  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/include/Intersection.h \
+  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/include/TrafficLight.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/condition_variable \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/future \
-  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/src/Graphics.h \
+  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/include/Graphics.h \
   /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4/opencv2/core.hpp \
   /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4/opencv2/core/cvdef.h \
   /opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4/opencv2/core/hal/interface.h \

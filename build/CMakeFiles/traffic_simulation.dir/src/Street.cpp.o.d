@@ -224,14 +224,14 @@ CMakeFiles/traffic_simulation.dir/src/Street.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
-  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/src/Vehicle.h \
-  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/src/TrafficObject.h \
+  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/include/Vehicle.h \
+  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/include/TrafficObject.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/thread \
-  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/src/Intersection.h \
-  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/src/TrafficLight.h \
+  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/include/Intersection.h \
+  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/include/TrafficLight.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/condition_variable \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/future \
-  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/src/Street.h
+  /Users/ms/CppUdacity/Projects/CppTrafficSimulator/include/Street.h
